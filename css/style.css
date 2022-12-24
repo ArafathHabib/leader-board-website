@@ -1,0 +1,163 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+.nav-con{
+    background: #562EFF;
+}
+
+#navbarNav{
+    justify-content: end;
+    text-align: center;
+}
+
+.nav-item{
+    padding: 0 10px;
+    font-size: 17px;
+}
+
+.nav-link{
+    color: white;
+}
+
+.idea{
+    color: white;
+    font-size: 24px;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.logo{
+    height: 51px;
+}
+
+.ul{
+    align-items: center;
+}
+
+.home{
+    background-color: white;
+    margin-top: 50px;
+}
+
+.top-h1{
+    color: #562EFF;
+    margin-bottom: 30px;
+}
+
+.inner-home{
+    padding: 30px;
+}
+
+.profile{
+    width: 66px;
+    height: 66px;
+}
+
+.name{
+    height: 100%;
+    align-items: center;
+    display: flex;
+    padding-left: 15px;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.profile-div{
+    padding-top: 30px;
+    justify-content: center;
+    display: flex;
+}
+
+.hr{
+    margin-top: 50px;
+    border: 1px solid rgb(63, 63, 63);
+    margin-bottom: 50px;
+}
+
+.blog-img{
+    width: 200px;
+    height: 130px;
+}
+
+.blog-title{
+    width: 200px;
+}
+
+.blog-title > h4{
+    font-weight: 600;
+}
+
+.blog-title > p{
+    font-size: 19px;
+    margin-top: 20px;
+    color: gray;
+}
+
+.blog-title > p > span{
+    color: #562EFF;
+}
+
+.blog{
+    margin-top: 30px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+@media screen and (max-width: 482px) {
+    .blog {
+      display: flex;
+      justify-content: center;
+    }
+
+    .blog-title-div{
+        width: 100%;
+    }
+  }
+.blog-img-div{
+    display: flex;
+    justify-content: center;
+}
+.blog-title-div{
+    display: flex;
+    justify-content: center;
+}
+
+.profile-parent{
+    width: 230px;
+    justify-content: flex-start;
+}
+
+.card{
+    border: none;
+}
+
+.card-footer{
+    border-top: none
+}
+
+.card-body{
+    width: 100%;
+}
+.star {
+    font-size: 20px;
+    color: orange;
+}
+
+.clock{
+    width: 20px;
+}
+
+.duration{
+    color: #FF4A60;
+    background: #FEE5DF;
+    justify-content: center;
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+}
+
+.duration p{
+    font-size: 18px;
+}
